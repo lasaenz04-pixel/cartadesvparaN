@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Para Normita ❤️</title>
+
+<style>
+
+/* ---------- BODY ---------- */
+body {
+  margin: 0;
+  padding: 40px 20px;
+  font-family: Georgia, serif;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  min-height: 100vh;
+  display: block;
+  overflow-x: hidden;
+}
+
+/* ---------- CARD ---------- */
+.card {
+  background: white;
+  width: 100%;
+  max-width: 650px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+  text-align: center;
+  animation: fadeIn 1.8s ease;
+  position: relative;
+  z-index: 2;
+}
+
+h1 {
+  color: #e63946;
+  margin-bottom: 12px;
+  font-size: 26px;
+}
+
+/* ---------- AUDIO ---------- */
+.audio-player {
+  margin: 15px 0 20px 0;
+}
+
+audio {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* ---------- LETTER ---------- */
+p {
+  font-size: 17px;
+  line-height: 1.75;
+  color: #333;
+  text-align: justify;
+  white-space: pre-line;
+}
+
+/* ---------- HEART ---------- */
+.heart {
+  font-size: 28px;
+  margin-top: 18px;
+  animation: pulse 1.5s infinite;
+}
+
+/* ---------- ANIMATIONS ---------- */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.18); }
+  100% { transform: scale(1); }
+}
+
+/* ---------- TYPING EFFECT ---------- */
+.typing {
+  overflow: hidden;
+  border-right: .15em solid #e63946;
+  white-space: nowrap;
+  animation: typing 4s steps(40,end), blink .8s infinite;
+  margin: 0 auto 20px auto;
+  font-size: 18px;
+  color: #e63946;
+  max-width: 90%;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+/* ---------- FALLING ROSES ---------- */
+.rose {
+  position: fixed;
+  top: -50px;
+  font-size: 24px;
+  animation: fall linear infinite;
+  z-index: 0;
+  opacity: .85;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh) rotate(360deg);
+  }
+}
+
+/* ---------- OVERLAY ---------- */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  padding: 20px;
+}
+
+.overlay:hover {
+  background: rgba(0,0,0,0.75);
+}
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 480px) {
+  body { padding: 20px 12px; }
+  .card { padding: 18px; }
+  h1 { font-size: 22px; }
+  p { font-size: 16px; }
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- CLICK TO START MUSIC -->
+<div class="overlay" id="overlay">
+Toca aquí 🎵
+</div>
+
+<!-- FALLING ROSES -->
+<script>
+for (let i = 0; i < 25; i++) {
+  const rose = document.createElement("div");
+  rose.className = "rose";
+  rose.innerHTML = "🌹";
+  rose.style.left = Math.random() * 100 + "vw";
+  rose.style.animationDuration = (5 + Math.random() * 5) + "s";
+  rose.style.fontSize = (18 + Math.random() * 20) + "px";
+  document.body.appendChild(rose);
+}
+</script>
+
+<div class="card">
+
+<h1>Normita Elvia Alvarado ❤️</h1>
+
+<div class="typing">
+Feliz Día del Amor y la Amistad 💌
+</div>
+
+<!-- AUDIO PLAYER -->
+<div class="audio-player">
+<audio id="audio" loop controls>
+<source src="lovemelikeyoudo.mp3" type="audio/mpeg">
+Tu navegador no soporta audio HTML5.
+</audio>
+</div>
+
+<p>
+Este Día del Amor y la Amistad es el más raro que he vivido en toda mi vida… porque hay alguien a quien adoro con todo mi corazón, pero no puedo tener conmigo en este día.
+
+No puedo darte un regalo ni una tarjeta física, pero al menos así puedo escribirte estas palabras para que veas que las escribo con mis propias manos.
+
+Solo quiero decirte que lo que siento por ti es más grande de lo que me imaginé.
+
+Cuando te veo a los ojos, siento que todo lo demás alrededor deja de existir. Cuando huelo tu perfume, siento una tranquilidad en el alma. Y cuando te beso, hasta la golosina más dulce sabe amarga comparada con tus labios.
+
+Cada momento que hemos pasado juntos los llevo guardados en mi corazón:
+
+La primera vez que tomaste mi mano y sentí lo suave que tienes la piel, como terciopelo.  
+El primer abrazo que nos dimos, donde el tiempo pareció detenerse por completo.  
+La primera vez que tus labios tocaron los míos y sentí esa electricidad correr por mis venas.  
+La primera vez que nos entregamos el uno al otro y me sentí tan vivo como no me había sentido en mucho tiempo.
+
+Esto que llevo por ti se convirtió en algo más grande de lo que imaginé… y por eso mismo el dolor que cargo el día de hoy por no tenerte conmigo es igual de grande.
+
+Aun así, dentro de mí sigue esa llama de esperanza de que mejores días puedan llegar, y que esto que nació entre nosotros tenga la oportunidad de crecer y convertirse en lo que realmente puede ser.
+
+Pero si solo tomas un mensaje de todo lo que te he escrito, que sea este:
+
+Te quiero.  
+Te adoro.  
+Te sueño.  
+Y te amo.
+
+Hay muchas cosas que quisiera regalarte, que te mereces… un viaje a Grecia, una cena romántica con velas y la vista de la ciudad en la noche, un anillo, un futuro lleno de alegría y amor.
+
+En cambio, lo único que pido como regalo es esa sonrisa que solo tienes tú.
+
+Una sonrisa que brilla más que la luna en la noche oscura, junto con esos ojitos que hasta a las estrellas les da envidia.
+
+Feliz Día del Amor y la Amistad, Normita.
+
+— Luis
+</p>
+
+<div class="heart">❤️</div>
+
+</div>
+
+<script>
+const overlay = document.getElementById('overlay');
+const audio = document.getElementById('audio');
+
+overlay.addEventListener('click', () => {
+  audio.play();
+  overlay.style.display = 'none';
+});
+</script>
+
+</body>
+</html>
